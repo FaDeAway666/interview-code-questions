@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Test</title>
+  </head>
+  <body>
+    <div>
+      <button onclick="getMediaAuth('video')">Camera</button>
+      <button>MicroPhone</button>
+    </div>
+    <div>
+      <button onclick="stopVideoStream()">Stop Camera</button>
+    </div>
+
+    <video style="width: 500px; height: 400px" autoplay></video>
+  </body>
+
+  <script src="./media.js"></script>
+</html>

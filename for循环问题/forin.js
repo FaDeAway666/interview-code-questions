@@ -21,3 +21,16 @@ for (const key in person) {
     console.log(key);
   }
 }
+
+const map = new Map([
+  [1, "z"],
+  [2, "c"],
+]);
+console.log(map);
+for (let key in map) {
+  console.log(key);
+}
+
+for (let entry of map) {
+  console.log(entry);
+}
